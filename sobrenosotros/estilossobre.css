@@ -1,0 +1,62 @@
+.misionvision{
+	max-width: 1200px;
+	width: 100%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.textos{
+	width: 500px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.textos h2{
+	font-size: 30px;
+	font-weight: 700;
+}
+
+
+.textos p{
+	text-align: justify;
+	margin-top: 20px;
+	font-weight: 400;
+}
+
+iframe{
+	max-width: 1200px;
+	width: 41.5%;
+	margin-left: 0;
+	margin-top: 50px;
+}
+
+
+.textoextra{
+	position: relative;
+	max-width: 1200px;
+	width: 500px;
+	margin-top: 50px;
+	text-align: justify;
+
+}
+
+.textoextra p{
+	margin-top: 20px;
+}
+
+
+/* responsive */ 
+
+@media screen and (max-width:880px){
+	iframe{
+		width: 100%;
+	}
+
+@media screen and (max-width:720px){
+	iframe{
+		width: 100%;
+	}
+}

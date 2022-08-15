@@ -1,0 +1,96 @@
+footer{
+	width: 100%;
+	padding: 50px 0px;
+	background-image: url(../images/footerfondo.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.fondo_footer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: auto;
+	margin-top: 80px;
+}
+
+.fondo_footer .caja_footeer{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+
+
+.imagen_defooter img{
+	width: 20px;
+	margin-left: 20px;
+}
+
+.imagen_defooter p{
+	max-width: 350px;
+	padding: 10px;
+	font-weight: 500;
+	color: #7a7a7a;
+	font-size: 16px;
+	text-align: justify;
+}
+
+
+.caja_footeer h2{
+	font-size: 18px;
+	margin-bottom: 25px;
+	color: #343434;
+}
+
+.caja_footeer a{
+	color: #7a7a7a;
+	font-weight: 600;
+	text-decoration: none;
+	margin-top: 3px;
+}
+
+.caja_footeer a:hover{
+	opacity: 0.8;
+}
+
+.derechosdeautor{
+	max-width: 1200px;
+	margin: auto;
+	text-align: center;
+	color: #7a7a7a;
+	padding: 0px 20px;
+}
+
+.derechosdeautor hr{
+	border: none;
+	height: 1px;
+	background-color: #7a7a7a;
+	margin-top: 0px;
+}
+
+.derechosdeautor p{
+	color: #7a7a7a;
+	font-size: 15px;
+	margin-top: 1px;
+}
+
+
+/* Aún más responsive */ 
+
+@media screen and (max-width:530px){
+	.imagen_defooter img{
+		margin-left: 215px;
+		
+	}
+	.imagen_defooter p{
+		max-width: 530px;
+		margin: auto;
+	}
+}
+
+@media screen and (min-width:1517px){
+	footer{
+		background-image: url("");
+	}
+}
